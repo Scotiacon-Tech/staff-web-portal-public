@@ -1,0 +1,1 @@
+import{T as o,E as n,d as s,ao as a}from"./index-VXk1GC17.js";const r=()=>{o.getInstance().removeTokensByService("AuthAPI"),n.getInstance().emit("logout")},m=s({__name:"AuthLogout",setup(t){return r(),a().push("/"),(e,u)=>null}});export{m as default};
