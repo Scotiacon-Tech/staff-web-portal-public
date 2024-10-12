@@ -1,0 +1,1 @@
+import{T as n,F as o,D as s,as as a}from"./index-UZxHwuFp.js";const r=()=>{n.getInstance().removeTokensByService("AuthAPI"),o.getInstance().emit("logout")},m=s({__name:"AuthLogout",setup(t){return r(),a().push("/"),(e,u)=>null}});export{m as default};
